@@ -5,3 +5,4 @@ Training several of the generative models and all the segmentation networks was 
 This research was supported by the ITEA/VINNOVA project ASSIST (Automation, Surgery Support and Intuitive 3D visualization to optimize workflow in IGT SysTems, 2021-01954), LiU Cancer and the Åke Wiberg foundation. Anders Eklund has previously received graphics hardware from Nvidia.
 
 Some sample Synthetic images can be seen below 
+![Samples](Samples_Brats20.png)
