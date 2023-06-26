@@ -130,21 +130,6 @@ class ImageDataset(Dataset):
         multichannel_img[:,:,3] = C4
         multichannel_img[:,:,4] = C5
              
-        # with bf.BlobFile(path, "rb") as f:
-        #     pil_image = Image.open(f)
-        #     pil_image.load()
-        # pil_image = pil_image.convert("RGB")
-
-        # if self.random_crop:
-        #     arr = random_crop_arr(pil_image, self.resolution)
-        # else:
-        #     arr = center_crop_arr(pil_image, self.resolution)
-
-        # if self.random_flip and random.random() < 0.5:
-        #     arr = arr[:, ::-1]
-
-        # arr = arr.astype(np.float32) / 127.5 - 1
-
         multichannel_img = multichannel_img.astype(np.float32) / 127.5 - 1
         out_dict = {}
         if self.local_classes is not None:
