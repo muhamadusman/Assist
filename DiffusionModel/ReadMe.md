@@ -11,4 +11,5 @@ python scripts/image_train.py --data_dir datasets/313_3Channel_Images_train/ $MO
 
 
 Inetiate Sampling :
+
 python scripts/image_sample_modified_single.py --model_path guided_diffusion/model030000.pt $MODEL_FLAGS $DIFFUSION_FLAGS
