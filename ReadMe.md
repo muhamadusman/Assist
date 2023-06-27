@@ -16,13 +16,9 @@ If you use this code in your research, please consider citing our work. You can 
 You can use the following BibTeX entry for citation:
 
 @article{akbar2023brain,
-
   title={Brain tumor segmentation using synthetic MR images--A comparison of GANs and diffusion models},
-
   author={Akbar, Muhammad Usman and Larsson, M{\aa}ns and Eklund, Anders},
-  
   journal={arXiv preprint arXiv:2306.02986},
-  
   year={2023}
 
 }
