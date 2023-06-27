@@ -7,3 +7,18 @@ This research was supported by the ITEA/VINNOVA project ASSIST (Automation, Surg
 Some sample Synthetic images can be seen below 
 
 ![Samples](Samples_Brats20.png)
+
+
+## Citation
+
+If you use this code in your research, please consider citing our work. You can find the relevant details in our paper at [https://ui.adsabs.harvard.edu/abs/2023arXiv230602986U/abstract].
+
+You can use the following BibTeX entry for citation:
+
+@article{akbar2023brain,
+  title={Brain tumor segmentation using synthetic MR images--A comparison of GANs and diffusion models},
+  author={Akbar, Muhammad Usman and Larsson, M{\aa}ns and Eklund, Anders},
+  journal={arXiv preprint arXiv:2306.02986},
+  year={2023}
+}
+
