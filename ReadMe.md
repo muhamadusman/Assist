@@ -1,4 +1,4 @@
-This repository includes Generative AI for medical imaging, primarily focused on Brain MRI
+This repository includes Generative models for medical imaging, primarily focused on Brain MRI
 
 Training several of the generative models and all the segmentation networks was performed using the supercomputing resource Berzelius (752 Nvidia A100 GPUs) provided by the National Supercomputer Centre at Linköping University, Sweden. It was donated by the Knut and Alice Wallenberg Foundation. 
 
