@@ -8,6 +8,8 @@ import numpy as np
 import PIL.Image
 import pickle
 
+# Generate and save images with different random seeds
+num_images = 100000
 
 print ("Generating Samples")
 # Path to pre-trained StyleGAN1 .pkl file
@@ -26,8 +28,7 @@ tflib.init_tf()
 with open(pkl_path, 'rb') as f:
     _G, _D, Gs = pickle.load(f)
 
-# Generate and save images with different random seeds
-num_images = 100005
+
 used_seeds = set() # set to keep track of used seeds
 for i in range(num_images):
     # Generate a random seed that hasn't been used before
