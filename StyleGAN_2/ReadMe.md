@@ -1,4 +1,4 @@
-The code is an extension of StyleGAN3 provided by [NVlabs](https://github.com/NVlabs/stylegan3). By changing the provided files in the directories and then running the `train.py` file you can train the model
+The code is an extension of [NVlabs](https://github.com/NVlabs/stylegan3) where support for StyleGAN2 is also given. By changing the provided files in the directories and then running the `train.py` file you can train the model
 
 A docker container is available which can be converted to a singularity container from the given command (singularity build stylegan3_pytorch_tf_latest.sif Dockerfile)
 
