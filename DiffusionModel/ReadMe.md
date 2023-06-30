@@ -1,4 +1,4 @@
-
+The code is based on the repository provided by  [OpenAI](https://github.com/openai/guided-diffusion) which is codebase for [Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233)
 
 
 Inetiate Training :
