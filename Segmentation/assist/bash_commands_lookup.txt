@@ -1,0 +1,2 @@
+ssh manla86@ducati.ad.liu.se
+rsync -avh manla86@ducati.ad.liu.se:/flush2/manla86/models/* /media/internal/projects/ASSIST/models/
