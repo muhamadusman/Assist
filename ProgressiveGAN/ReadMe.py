@@ -4,6 +4,4 @@ Use .yml file to make conda environment
 
 Modify config.py in the PGGAN code to use your new dataset.
 
-Change train.py
-
 Run train.py in inetiate training. 
