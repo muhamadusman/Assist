@@ -2,8 +2,8 @@ The code is an extension of [NVlabs](https://github.com/NVlabs/stylegan3) where 
 
 A docker container is available which can be converted to a singularity container from the given command (singularity build stylegan2_pytorch_tf_latest.sif Dockerfile)
 
-**
-Initiate Training** : 
+
+Initiate Training : 
 launch.sh file can be executed using sbatch or the command (singularity exec --no-home --nv -H homeDirectory/  -B baseDirectory/  stylegan2_pytorch_tf_latest.sif python train.py --outdir=outputDirectory --cfg=stylegan2-t --data=data/T1/ --gpus=4 --batch=32 --gamma=8 --mirror=1) can be used to initiate the training 
 different Gamma values can be used to train
 
