@@ -57,7 +57,7 @@ If you prefer to use conda for environment there is an environment file included
 
 # Workflow
 - Install environment on berzelius (recommended for training) and local computer (recommended for running models)
-- Place synthetic dataset compressed to .tar files in storage path defined in config.ini (all synthetic datasets up until now can be found compressed in /proj/assist/users/x_manla/datasets)
+- Place synthetic dataset compressed to .tar files in storage path defined in config.ini (all synthetic datasets up until now can be found compressed in /path_to_proj/datasets)
 - assist/launch_script_generations contains script to generate launch scripts, eg. assist/launch_script_generations/generate_launch_scripts_diffusion_paper.py generates all launch scripts for the experiments in "A Performance Analysis of Diffusion Model and GANs for Synthetic Brain Tumor MRI Data Generation". Running this script on berzelius and then ```source diffusion.sh``` will schedule training for all experiments. If you need to add new experiments or redo some old trainings, modify the script
 - During training, you can checkt slurm files for progress. There is also a helper script, assist/check_trainings.py that summarizes training progress. This is helpful to see if any trainings have crashed (very uncommon). Trainings are done after 72 hours.
 - [Optional] download models to local computer
