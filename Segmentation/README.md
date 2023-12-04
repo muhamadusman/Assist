@@ -41,10 +41,10 @@ pip install -r requirements.txt
 
 ```
 [paths]
-storage: /proj/assist/users/x_manla/datasets
+storage: path_to_proj/datasets
 datasets: /scratch/local/datasets # do not change this for berzelius
-models: /proj/assist/users/x_manla/models
-results: /proj/assist/users/x_manla/results
+models: path_to_proj/models
+results: path_to_proj/results
 
 [specs]
 base_batch_size: 48
