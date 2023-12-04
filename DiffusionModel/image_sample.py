@@ -22,7 +22,7 @@ from guided_diffusion.script_util import (
 )
 
 def save_images(img,seed):#,rank):
-    outdir = '/proj/assist/users/x_muhak/guided-diffusion/output1'
+    outdir = 'path_to_proj/output'
     split_arrays_3d = np.split(img, img.shape[0], axis=0)
     localseed=1
     for img in split_arrays_3d:
