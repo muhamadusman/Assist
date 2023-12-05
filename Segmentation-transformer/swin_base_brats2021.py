@@ -1,6 +1,6 @@
 _base_ = [
-    '/proj/assist/users/x_muhak/assist-vision/henrik/swin_and_vit_/configs/_base_/models/upernet_swin_brats2020.py', '/proj/assist/users/x_muhak/assist-vision/henrik/swin_and_vit_/configs/_base_/datasets/mydatasets/noaug/assist_1/brats2021_2dslices_001.py', 
-    '/proj/assist/users/x_muhak/assist-vision/henrik/swin_and_vit_/configs/_base_/default_runtime.py', '/proj/assist/users/x_muhak/assist-vision/henrik/swin_and_vit_/configs/_base_/schedules/schedule_20k.py'
+    'path_to_proj/swin_and_vit_/configs/_base_/models/upernet_swin_brats2020.py', 'path_to_proj/swin_and_vit_/configs/_base_/datasets/mydatasets/noaug/assist_1/brats2021_2dslices_001.py', 
+    'path_to_proj/assist-vision/henrik/swin_and_vit_/configs/_base_/default_runtime.py', 'path_to_proj/swin_and_vit_/configs/_base_/schedules/schedule_20k.py'
 ] 
 
 model = dict(
