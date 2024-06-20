@@ -13,13 +13,21 @@ If you use this code in your research, please consider citing our work. You can 
 You can use the following BibTeX entry for citation:
 
 @article{usman2024brain,
+
   title={Brain tumor segmentation using synthetic MR images-A comparison of GANs and diffusion models},
+  
   author={Usman Akbar, Muhammad and Larsson, M{\aa}ns and Blystad, Ida and Eklund, Anders},
+  
   journal={Scientific Data},
+  
   volume={11},
+  
   number={1},
+  
   pages={259},
+  
   year={2024},
+  
   publisher={Nature Publishing Group UK London}
 }
 
