@@ -8,7 +8,7 @@ This research was supported by the ITEA/VINNOVA project ASSIST (Automation, Surg
 
 ## Citation
 
-If you use this code in your research, please consider citing our work. You can find the relevant details in our paper at [https://ui.adsabs.harvard.edu/abs/2023arXiv230602986U/abstract].
+If you use this code in your research, please consider citing our work. You can find the relevant details in our paper at [https://www.nature.com/articles/s41597-024-03073-x].
 
 You can use the following BibTeX entry for citation:
 
