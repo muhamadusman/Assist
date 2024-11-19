@@ -1,4 +1,4 @@
-The code is an extension of StyleGAN3 provided by [NVlabs]([https://github.com/NVlabs/stylegan3](https://github.com/NVlabs/stylegan)). 
+The code is an extension of StyleGAN provided by [NVlabs]([https://github.com/NVlabs/stylegan3](https://github.com/NVlabs/stylegan)). 
 
 this code uses tfrecords as input data 
 
